@@ -1,0 +1,7 @@
+D:\Dokumenty\2019-2020\PJATK\semestr2\API\SPOTKANIA\spotkania_biuro\bin\spotkania_biuro.dll.config
+D:\Dokumenty\2019-2020\PJATK\semestr2\API\SPOTKANIA\spotkania_biuro\bin\spotkania_biuro.dll
+D:\Dokumenty\2019-2020\PJATK\semestr2\API\SPOTKANIA\spotkania_biuro\bin\spotkania_biuro.pdb
+D:\Dokumenty\2019-2020\PJATK\semestr2\API\SPOTKANIA\spotkania_biuro\obj\Debug\spotkania_biuro.csprojAssemblyReference.cache
+D:\Dokumenty\2019-2020\PJATK\semestr2\API\SPOTKANIA\spotkania_biuro\obj\Debug\spotkania_biuro.csproj.CoreCompileInputs.cache
+D:\Dokumenty\2019-2020\PJATK\semestr2\API\SPOTKANIA\spotkania_biuro\obj\Debug\spotkania_biuro.dll
+D:\Dokumenty\2019-2020\PJATK\semestr2\API\SPOTKANIA\spotkania_biuro\obj\Debug\spotkania_biuro.pdb

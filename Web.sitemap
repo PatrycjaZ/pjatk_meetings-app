@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode>
+		<siteMapNode url="ListaPracownikow.aspx" title="PRACOWNICY"  description="Lista pracowników">
+			<siteMapNode url="DodajPracownika.aspx" title="DODAJ PRACOWNIKA"  description="Dodaj pracownika" />
+			<siteMapNode url="SpotkaniaPracownika.aspx" title="SPOTKANIA PRACOWNIKA"  description="Spotkania pracownika" />
+		</siteMapNode>
+		<siteMapNode url="ListaSpotkan.aspx" title="SPOTKANIA"  description="Lista spotkań">
+			<siteMapNode url="DodajSpotkanie.aspx" title="DODAJ SPOTKANIE"  description="Dodaj spotkanie" />
+			<siteMapNode url="DodajDoSpotkania.aspx" title="DODAJ DO SPOTKANIA"  description="Dodaj pracownika do spotkania" />
+		</siteMapNode>
+		<siteMapNode url="ListaProjektow.aspx" title="PROJEKTY"  description="Lista projektów">
+			<siteMapNode url="DodajProjekt.aspx" title="DODAJ PROJEKT"  description="Dodaj projekt" />
+		</siteMapNode>
+		<siteMapNode url="Szukaj.aspx" title="SZUKAJ SPOTKANIA"  description="Wyszukaj" />
+	</siteMapNode>
+</siteMap>

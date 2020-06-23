@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SzablonStrony.master.cs" Inherits="spotkania_biuro.SzablonStrony" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Aplikacja do planowania spotkań</title>
+    <link href="Style/style.css" rel="stylesheet" runat="server" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <h1 class="header-main">APLIKACJA DO PLANOWANIA SPOTKAN</h1>
+            <p class="header-second">Biuro Projektowe</p>
+        </div>
+        <div class="nav-wrapper">
+            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" OnMenuItemClick="Menu1_MenuItemClick" Orientation="Horizontal" StaticDisplayLevels="2" BackColor="#95AFC0" ClientIDMode="Static" Font-Names="Agency FB" Font-Size="20px" ForeColor="White">
+                <DynamicHoverStyle ForeColor="White" />
+                <DynamicMenuItemStyle BackColor="#596275" Font-Size="18px" HorizontalPadding="10px" />
+                <StaticHoverStyle ForeColor="White" />
+                <StaticMenuItemStyle HorizontalPadding="40px" VerticalPadding="10px" />
+            </asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
